@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: "Montserrat", sans-serif;
+}
+    
+ul {
+    list-style: none;
+}
+    
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+    
+img {
+    display: inline-block;
+}
+    
+span {
+    display: inline-block;
+}
+    
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box {
+    width: 340px;
+    height: 470px;
+    background: linear-gradient(320deg, dodgerblue 10%, lightblue);
+    padding: 50px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+#days {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+#date {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#city-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 130px;
+}
+
+#temp {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+#weather {
+    font-size: 16px;
+    font-weight: 700;
+}
